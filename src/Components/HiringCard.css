@@ -1,0 +1,58 @@
+.card,.benefit-card {
+    position: relative; /* Needed for absolute positioning */
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center; /* Center the text */
+    /* margin: 10px 100px; */
+    margin-top: 20px;
+  }
+  .card:hover{
+    background: linear-gradient(135deg, #6363f3, #f531d1);
+    color: white;
+  }
+  .benefit-card {
+    border-top: 3px solid rgb(232, 14, 207);
+    border-left: 3px solid rgb(243, 56, 224);
+    border-bottom: 3px solid rgb(27, 174, 200);
+    border-right: 3px solid rgb(27, 174, 200);
+     /* Adjust height as needed */
+}
+
+  
+  /* Icon in the top-left corner */
+  .icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    color: green;
+  }
+  
+  /* Center the title */
+  .title {
+    margin-top: 30px; /* Push it down to avoid the icon */
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  /* Description below the title */
+  .description {
+    font-size: 16px;
+    
+    margin-top: 10px;
+  }
+
+
+  @media screen and (max-width:600px){
+    .card,.benefit-card {
+        width: 300px;
+    }
+
+  }
+
+
+  

@@ -1,0 +1,78 @@
+body {
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+  }
+
+.head-resume{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* .resume class */
+.resume {
+    width: 100%;
+    max-width: 1000px; /* max width */
+    height: 600px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Adjusted gap */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 4px;
+    padding: 20px;
+  }
+  .resume1 h2{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 70px;
+}
+.resume2{
+    width: 800px;
+    height: 350px;
+    background-color: red;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.resume21{
+    background-color: rgb(89, 208, 30);
+    width: 400px;
+    height: 320px;
+}
+.join{
+    background-color: rgb(64, 171, 242);
+    padding: 5px 10px ;
+    border-radius: 5px;
+}
+  
+  /* Add responsive design */
+  @media (max-width: 768px) {
+    .resume {
+      width: 90%;
+      height: auto;
+    }
+  
+    .resume2 {
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .resume21 {
+      width: 100%;
+      height: auto;
+    }
+    .resume1 h2{
+        font-size: 1rem;
+        font-weight: bold;
+        line-height: 20px;
+    }
+  }
+  
+  /* You can tweak the gap, padding, and height for smaller screens */
+  
