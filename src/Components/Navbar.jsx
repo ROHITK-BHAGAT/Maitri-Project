@@ -1,11 +1,13 @@
 import React from 'react'
 import logo from '../assets/maitri-logo.png';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   return (
     <div className='nav'>
       <img src={logo} alt="logo" />
-      <button className='btn'>Book a Demo</button>
+
+      <NavLink to="/login"><button className='btndemo'>Book a Demo</button></NavLink>
     </div>
   )
 }

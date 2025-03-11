@@ -18,7 +18,7 @@ const CardSlider = () => {
     autoplaySpeed: 2000,
       };
   return (
-    <div>
+    <div className=''>
         <Slider {...settings}>
       <Card1/>
       <Card2/>

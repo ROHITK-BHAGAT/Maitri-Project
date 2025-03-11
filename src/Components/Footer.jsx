@@ -7,11 +7,11 @@ const Footer = () => {
     <div className='main-div1'>
       <div className='community'>
         <h2>Join Our AI Community</h2>
-        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <p>Get the latest in AI-driven hiring. Be the first to know about updates.</p>
       </div>
       <div>
-        <input type="text" placeholder='Enter Your Email'/>
-        <button className='sub'>Subscribe</button>
+        <input type="text" placeholder='Enter your email' className='footer-input'/>
+        <button className='sub cursor-pointer'>Subscribe</button>
       </div>
     </div>
     </div>
@@ -64,10 +64,13 @@ const Footer = () => {
 
     
     <div class="bottom-footer">
-        <p>Reserved @2025</p>
+        <p>@ 2025 AI Hiring Platform. All rights reserved.</p>
         <div class="footer-links">
             <a href="#">Terms</a>
             <a href="#">Privacy</a>
+            <a href="#">Cookies</a>
+
+
         </div>
     </div>
 </footer>

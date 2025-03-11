@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:wght@100&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sorts+Mill+Goudy:ital@0;1&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
 body {
     overflow-x: hidden; /* Prevents horizontal scrolling */
   }
@@ -14,7 +23,7 @@ body {
     width: 100%;
     max-width: 1000px; /* max width */
     height: 600px;
-    background-color: yellow;
+    /* background-color: yellow; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,26 +37,178 @@ body {
     font-weight: bold;
     line-height: 70px;
 }
+.resume1 p{
+  color: #4B5563;
+  font-size: 1.11rem;
+}
 .resume2{
-    width: 800px;
-    height: 350px;
-    background-color: red;
+    width: 760px;
+    height: 370px;
+    /* background-color: red; */
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 4px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 20px;
+    
 }
-.resume21{
-    background-color: rgb(89, 208, 30);
-    width: 400px;
-    height: 320px;
+.resume31 p {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  color: #4B5563;
+  font-weight: bold;
 }
+
+.resume31 span {
+  font-size: 0.9rem;
+  color: #9CA3AF;
+  margin-top: 5px; /* Ensure the span appears below the p tag */
+  padding-left: 40px!important;
+}
+.icon1{
+  background-color: #DBEAFE;
+    padding: 15px 12px;
+    border-radius: 10px;
+    font-size: 3rem;
+}
+
+.resume31 p svg {
+  margin-right: 10px; /* Space between icon and the text */
+}
+.resume31 span {
+  font-size: 0.9rem;
+  color: #9CA3AF;
+  margin-top: 5px; /* Ensure the span appears below the p tag */
+  margin-left: 20px; /* Add some space between text and span */
+}
+.resume31 p svg {
+  margin-right: 10px; /* Space between icon and the text */
+}
+
+
+.resume21 {
+  width: 420px;
+  height: 320px;
+  border: 10px solid #713CE7;
+  border-radius: 8px;
+  
+   
+}
+
+
+
 .join{
-    background-color: rgb(64, 171, 242);
-    padding: 5px 10px ;
+    background-color: #2563EB;
+    padding: 10px 70px ;
     border-radius: 5px;
+    margin-top: 10px;
+    color: white;
 }
+
+
+
+/* card2 */
+
+.feedback-resume{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.fresume {
+  width: 100%;
+  max-width: 1000px; /* max width */
+  height: 600px;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Adjusted gap */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.fresume1 h2{
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 70px;
+}
+.fresume1 p{
+color: #4B5563;
+font-size: 1.11rem;
+}
+.resume22{
+  width: 760px;
+  height: 370px;
+  /* background-color: red; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  padding: 0px 25px;
+  /* background-color: red; */
+  
+}
+.feedback{
+  /* background-color: yellow; */
+  width: 400px;
+  height: 250px;
+}
+.feedback1 h2{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.feedback1 p{
+  margin-top: 35px;
+}
+.demo {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Space between text and icon */
+  background-color: #6363f3;
+  color: white;
+  padding: 7px 26px ;
+  font-size: 16px;
+  border-radius: 5px;
+  /* margin-top: 10px; */
+  
+  cursor: pointer;
+}
+.demo1 {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Space between text and icon */
+  background-color: white;
+  color: white;
+  padding: 7px 26px ;
+  font-size: 16px;
+  border-radius: 5px;
+  /* margin-top: 10px; */
+  color: black;
+  cursor: pointer;
+}
+.btn{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+.resume211 {
+  width: 260px;
+  height: 220px;
+  /* border: 10px solid #713CE7; */
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  
+   
+}
+
   
   /* Add responsive design */
   @media (max-width: 768px) {
@@ -58,9 +219,10 @@ body {
   
     .resume2 {
       width: 100%;
-      height: auto;
+      height: 400px;
+      display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 40px;
     }
   
     .resume21 {
@@ -72,7 +234,51 @@ body {
         font-weight: bold;
         line-height: 20px;
     }
+    .fresume {
+      width: 90%;
+      /* background-color: yellow; */
+      height: auto;
+      
+    }
+    .fresume1 h2{
+      font-size: 1rem;
+      font-weight: bold;
+      line-height: 20px;
+  }
+
+/*  */
+
+  .resume22{
+    width: 300px;
+    height: auto;
+    /* background-color: red; */
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 10px 25px;
+    /* background-color: red; */
+    
+  }
+  .feedback{
+    /* background-color: rgb(0, 255, 60); */
+    width: 100%;
+    height: auto;
+  }
+  .resume211 {
+    width: 260px;
+    height: 220px;
+    /* border: 10px solid #713CE7; */
+    /* background-color: rgb(34, 0, 255); */
+    
+     
+  }
   }
   
-  /* You can tweak the gap, padding, and height for smaller screens */
+  /* card3 */
+  
+
+
   

@@ -3,29 +3,33 @@ import HCard from './HCard'
 import CardSlider from './CardSlider'
 import BCard from './BCard'
 import Footer from './Footer'
+import Navbar from './Navbar'
+import { NavLink } from 'react-router-dom'
 // import video from '../assets/banner-bg-video.mp4';
 
 
 const Home = () => {
   return (
    <>
+   <Navbar/>
     <div className="hero-container">
       <h1 className="hero-title">
         UPGRADE YOUR HIRING <br />
         GAME WITH <br />
         <span className="highlight">MAITRI AI INTERVIEWER</span>
       </h1>
-      <button className="hero-btn">Get started</button>
+      <NavLink to="/login"><button className="hero-btn">Get started</button></NavLink>
+      
     </div>
 
     <div className='hiring-process'>
         <h1>Transform Your Hiring Process</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, tempore!</p>
+        <p>Streameline recruitment with AI-powered tools designed for modern bussiness</p>
     </div>
     <HCard/>
 
     <div className='feature'>
-        <h3>Upcomming features</h3>
+        <h3>Upcoming features</h3>
     </div>
     <CardSlider/>
 
